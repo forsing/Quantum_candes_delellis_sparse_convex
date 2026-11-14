@@ -15,9 +15,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -277,17 +277,17 @@ Posebnost: Kvantna RIP merna matrica 64x39 + visokofrekventne oscilacije i l1 Ba
 CSV: loto7_4718_k90.csv
 Validacija NLL (lambda_l1=0.015, osc_amp=0.15): 27.2823
 Test NLL: 27.4350
-NEXT: [11, 12, 16, 19, 37, 38, 39]
+NEXT: [11, x, 16, y, 37, z, 39]
 
 CSV: loto7_4718_k90_loto_2981.csv
 Validacija NLL (lambda_l1=0.015, osc_amp=0.15): 27.6345
 Test NLL: 27.8334
-NEXT: [1, 4, 5, 6, 7, 28, 29]
+NEXT: [1, x, 5, y, 7, z, 29]
 
 CSV: loto7_4718_k90_loto_plus_1737.csv
 Validacija NLL (lambda_l1=0.015, osc_amp=0.15): 27.8808
 Test NLL: 27.9134
-NEXT: [8, 11, 15, 16, 17, 20, 24]
+NEXT: [8, x, 15, y, 17, z, 24]
 """
 
 
